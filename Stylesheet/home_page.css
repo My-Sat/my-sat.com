@@ -1,0 +1,18 @@
+.logo_text_1, .logo_text_2 {
+    width: 60%;
+    height: 60%;
+    margin-right: -5px;
+    text-align: center;
+}
+
+.logo_text_1 {
+    background-color: #c5373c;
+    color: #C2DFFF;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.logo_text_2 {
+    background-color: #C2DFFF;
+    color: #c5373c;
+    border-radius: 0px 5px 5px 0px;
+}
