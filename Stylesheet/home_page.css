@@ -23,12 +23,14 @@
 
 .carousel-text {
     height: 100px;
-    width: 70%;
+    width: 50%;
+    border: 2px solid red;
 }
 
 .carousel-container {
     height: 100px;
     width: 35%;
+    border: 2px solid red;
 }
 
 .carousel-item {
