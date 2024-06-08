@@ -16,3 +16,27 @@
     color: #c5373c;
     border-radius: 0px 5px 5px 0px;
 }
+
+.container {
+    width: 100vw;
+}
+
+.carousel-text {
+    height: 100px;
+    width: 70%;
+}
+
+.carousel-container {
+    height: 100px;
+    width: 35%;
+}
+
+.carousel-item {
+    height: 100%;
+    width: 100%;
+}
+
+.custom-carousel-img {
+    object-fit: cover;
+    height: 100px;
+}
