@@ -52,3 +52,12 @@
     text-decoration: none;
     color:black;
 }
+
+.footer {
+    background-color: #808080 !important;
+}
+
+.footer-anchor {
+    text-decoration: none;
+    color: white;
+}
