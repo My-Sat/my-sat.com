@@ -1,3 +1,7 @@
+.main-container {
+    background-color: beige;
+}
+
 .logo_text_1, .logo_text_2 {
     width: 60%;
     height: 60%;
@@ -54,7 +58,7 @@
 }
 
 .footer {
-    background-color: #808080 !important;
+    background-color: slategrey;
 }
 
 .footer-anchor {
