@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container main-container mt-1">
-        <!--Nav bar section-->
+         <!--Nav bar section-->
       <div class="row">
         <div class="col-12 ">
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -22,7 +22,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" href="../index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Track Satellites</a>
@@ -34,11 +34,11 @@
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item"  href="https://wa.me/233543328021">Whatsapp</a></li>
                       <li><a class="dropdown-item" href="mailto:chienntiwuni@gmail.com">Email</a></li>
-                      <li><a class="dropdown-item" href="#" onclick="makeCall()">Call</a></li>
+                      <li><a class="dropdown-item"  onclick="makeCall()">Call</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">About</a>
+                    <a class="nav-link" href="#">About</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -50,18 +50,34 @@
           </nav>
         </div>
       </div>
-
+      <!--Top infor section-->
       <div class="top-info-container d-flex justify-content-between align-items-center mt-3">
-        <div class="top-info-left fs-4 fw-bold ps-2">Delivery before payment</div>
+        <div class="top-info-left fs-4 fw-bold ps-2">
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                Delivery before payment.
+              </div>
+              <div class="carousel-item">
+                Delivered at your doorstep when you order
+              </div>
+              <div class="carousel-item">
+                Just select an item to order NOW!!!
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="top-info-right d-md-flex">
             <div class="caller-button">
                 <button class="btn btn-light" onclick="makeCall()">Call Installer <i class="fa-solid fa-phone-flip"></i></button>
             </div>
-            <div class="track-satellite ps-2">
+            <div class="track-satellite">
                 <button class="btn btn-light"><a href="#">Track Satellite <i class="fa-solid fa-satellite-dish"></i></a></button>
             </div>
         </div>
       </div>
+
+      <!--About description section-->
       <div class="row">
         <div class="col-md-12">
             <main>
