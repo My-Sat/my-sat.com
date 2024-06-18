@@ -2,3 +2,17 @@
     color: red;
     font-weight: bold;
 }
+
+.related-product-main-div {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.related-product {
+    width: 100%;
+}
+
+.carousel-image{
+    width: 70%;
+    border: 1px solid red;
+}
