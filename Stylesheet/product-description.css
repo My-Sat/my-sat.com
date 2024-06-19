@@ -1,18 +1,35 @@
 .product-name {
-    color: red;
+    color: darkcyan;
     font-weight: bold;
 }
 
 .related-product-main-div {
     width: 100%;
-    border: 1px solid red;
 }
 
-.related-product {
+.related-product-parent-div {
     width: 100%;
 }
 
 .carousel-image{
-    width: 70%;
-    border: 1px solid red;
+    width: 50%;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000; 
+}
+
+.carousel-item a {
+    text-decoration: none;
+}
+
+.card-text {
+    color: red;
+}
+
+.clicked-effect {
+    border: 2px solid #007bff; /* Change border color */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Add box shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
