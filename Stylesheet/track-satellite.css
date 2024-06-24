@@ -5,3 +5,7 @@
 .satellite-list-container a {
     text-decoration: none;
 }
+
+.track-text {
+    width: 100%;
+}
