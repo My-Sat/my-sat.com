@@ -6,10 +6,6 @@
     text-decoration: none;
 }
 
-.satellite-list-container a:visited {
-    color: hotpink;
-}
-
 .satellite-list-container a:hover {
     color: darkblue;
 }
