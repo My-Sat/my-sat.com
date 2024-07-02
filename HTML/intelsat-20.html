@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intelsat-20</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Stylesheet/layout.css">
+    <link rel="stylesheet" href="../Stylesheet/satellites-frequency-page.css">
+  </head>
+  <body>
+    <div class="container main-container mt-1">
+         <!--Nav bar section-->
+      <div class="row">
+        <div class="col-12 ">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"> <span class="logo_text_1 fw-bolder fs-4 d-inline-block">My-</span> <span class="logo_text_2 fw-bolder fs-4 d-inline-block">Sat</span> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Track Satellites</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item"  href="https://wa.me/233543328021">WHATSAPP</a></li>
+                      <li><a class="dropdown-item" href="mailto:chienntiwuni@gmail.com">EMAIL</a></li>
+                      <li><a class="dropdown-item"  onclick="makeCall()">CALL</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--Top infor section-->
+      <div class="top-info-container d-flex justify-content-between align-items-center mt-3">
+        <div class="top-info-left fs-4 fw-bold ps-2">
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                Delivery before payment.
+              </div>
+              <div class="carousel-item">
+                Delivered at your doorstep when you order
+              </div>
+              <div class="carousel-item">
+                Just select an item to order NOW!!!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-info-right d-md-flex">
+            <div class="caller-button">
+                <button class="btn btn-light" onclick="makeCall()">Call Installer <i class="fa-solid fa-phone-flip"></i></button>
+            </div>
+            <div class="track-satellite">
+                <button class="btn btn-light"><a href="#">Track Satellite <i class="fa-solid fa-satellite-dish"></i></a></button>
+            </div>
+        </div>
+      </div>
+      <div class="sat-description mt-3">
+        <p>This satellite is intelsat 20, popularly known to be religious satellite, EMMANUEL-TV being amoung those.
+            This satellite is best tracked using 90cm dish(DSTV DISH) and above. 60cm can also be used
+            but with some diffulities.
+        </p>
+        <p>
+            NOTE: Each satellite is made up of list of frequencies, and each frequency having a number of channels 
+            under it. You track that satellite by using just one of that satellite frequencies.
+        </p>
+        <p>NOTE: Popular frequency: <span class="tracking-frequency">12722 V 26657</span></p>
+      </div>
+      <hr>
+      <!--body content-->
+     <div>
+        <div class="row">
+            <div class="col-5 border border-dark-subtle"><h4>FREQUENCY</h4></div>
+            <div class="col-7 border border-dark-subtle"><h4>CHANNEL NAME</h4></div>
+          </div>
+          <div class="row">
+            <div class="col-5 d-flex align-items-center border border-dark-subtle frequency"><h5>12522 V 27500</h5></div>
+            <div class="col-7 border border-dark-subtle channels">
+                <p><h5>Supreme master TV</h5></p>
+                <p><h5>AMI TV</h5></p>
+                <p><h5>Daystar TV</h5></p>
+                <p><h5>EMMANUEL-TV</h5></p>
+                <p><h5>Christ TV</h5></p>
+                <p><h5>Angel TV Africa</h5></p>
+                <p><h5>New Apostolic Church TV</h5></p>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-5 d-flex align-items-center border border-dark-subtle frequency"><h5>12522 H 30000</h5></div>
+                <div class="col-7 border border-dark-subtle channels">
+                    <p><h5>Channels TV</h5></p>
+                    <p><h5>AIT National</h5></p>
+                    <p><h5>LoveWorld sat</h5></p>
+                    <p><h5>SAM TV</h5></p>
+                    <p><h5>SBN International</h5></p>
+                    <p><h5>Efatha TV</h5></p>
+                    <p><h5>Bible Explorations TV</h5></p>
+                    <p><h5>Amazing Facts TV</h5></p>
+                    <p><h5>Hope Channel International</h5></p>
+                    <p><h5>TV Novo Tempo Brasil</h5></p>
+                    <p><h5>Hope Channel Africa</h5></p>
+                    <p><h5>Hope Channel Tanzania</h5></p>
+                    <p><h5>Hope Channel Zambia</h5></p>
+                    <p><h5>Hope Channel Malawi</h5></p>
+                    <p><h5>Hope Channel Uganda</h5></p>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-5 d-flex align-items-center border border-dark-subtle frequency"><h5>12562 H 30000</h5></div>
+                    <div class="col-7 border border-dark-subtle channels">
+                        <p><h5>Live Center Network</h5></p>
+                        <p><h5>Home Base TV</h5></p>
+                        <p><h5>LN24 International</h5></p>
+                        <p><h5>Flame TV</h5></p>
+                        <p><h5>Coza TV</h5></p>
+                        <p><h5>Elohim Global TV</h5></p>
+                        <p><h5>The Now Network</h5></p>
+                        <p><h5>Salvation TV</h5></p>
+                        <p><h5>Ark TV World</h5></p>
+                        <p><h5>Full Live TV</h5></p>
+                        <p><h5>Revival TV</h5></p>
+                        <p><h5>Bride TV</h5></p>
+                        <p><h5>God TV Africa</h5></p>
+                        <p><h5>Mogpa TV Plus</h5></p>
+                        <p><h5>Inspiration TV UK</h5></p>
+                        <p><h5>Victorious TV</h5></p>
+                        <p><h5>Kindom TV</h5></p>
+                        <p><h5>Yadah TV</h5></p>
+                        <p><h5>Christ Revealed TV</h5></p>
+                        <p><h5>MFM TV</h5></p>
+                        <p><h5>Chosen TV English</h5></p>
+                        <p><h5>Dove TV Nigeria</h5></p>
+                        <p><h5>New Vision TV</h5></p>
+                        <p><h5>Dove Intertainment</h5></p>
+                        <p><h5>Canal CVV International</h5></p>
+                        <p><h5>IWO TV</h5></p>
+                        <p><h5>ACNN</h5></p>
+                        <p><h5>ROV TV</h5></p>
+                        <p><h5>Revival Channel</h5></p>
+                        <p><h5>Miracle TV</h5></p>
+                        <p><h5>KICC TV</h5></p>
+                        <p><h5>synagogue TV</h5></p>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5 d-flex align-items-center border border-dark-subtle frequency"><h5>12634 V 16170</h5></div>
+                        <div class="col-7 border border-dark-subtle channels">
+                            <p><h5>BTV1</h5></p>
+                            <p><h5>BTV News</h5></p>
+                            <p><h5>France 24 English</h5></p>
+                            <p><h5>SAM TV</h5></p>
+                            <p><h5>BTV2</h5></p>
+                            <p><h5>YTV</h5></p>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 d-flex align-items-center border border-dark-subtle frequency"><h5>12682 V 30000</h5></div>
+                            <div class="col-7 border border-dark-subtle channels">
+                                <p><h5>Meriba TV</h5></p>
+                                <p><h5>Encounter Jesus TV</h5></p>
+                                <p><h5>Celebration TV</h5></p>
+                                <p><h5>Dunamis TV</h5></p>
+                                <p><h5>Remite TV</h5></p>
+                                <p><h5>New Jerusalam Brodcasts</h5></p>
+                                <p><h5>Divine Hand TV</h5></p>
+                                <p><h5>Ebenezer TV</h5></p>
+                                <p><h5>Temple TV</h5></p>
+                                <p><h5>Bless TV</h5></p>
+                                <p><h5>Encounter TV</h5></p>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5 d-flex align-items-center border border-dark-subtle frequency"><h5>12722 V 26657</h5></div>
+                                <div class="col-7 border border-dark-subtle channels">
+                                    <p><h5>UBN</h5></p>
+                                    <p><h5>Prophetic Channel</h5></p>
+                                    <p><h5>Free Indeed TV</h5></p>
+                                    <p><h5>Mercy TV Plus</h5></p>
+                                    <p><h5>Kindom Life Network</h5></p>
+                                    <p><h5>Redemption TV Ministry</h5></p>
+                                    <p><h5>Champion TV Plus</h5></p>
+                                    <p><h5>APTIM TV</h5></p>
+                                    <p><h5>Liberation TV</h5></p>
+                                    <p><h5>Ambience TV</h5></p>
+                                </div>
+                                </div>
+     </div>
+        </div>
+      </div>
+        </div>
+     </div>
+    <!-- Footer -->
+  <footer class="container text-white mt-2 p-4 text-center footer">
+      <div class="row">
+        <div class="col-md-4">
+          <a aria-current="page" href="#" class="footer-anchor" >
+            <h5>About Us</h5>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <ul class="list-unstyled">
+            <li>Email: chienntiwuni@gmail.com</li>
+            <li>Phone: (233) 543328021</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <a href="https://web.facebook.com/profile.php?id=61559264792519" class="text-white">Facebook</a> |
+          <a href="#" class="text-white">Twitter</a> |
+          <a href="#" class="text-white">Instagram</a>
+        </div>
+      </div>
+      <hr>
+      <p>&copy; 2024 My-Sat. All Rights Reserved.</p>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../Javascript/layout.js"></script>
+    <script src="https://kit.fontawesome.com/5aa2dc1415.js" crossorigin="anonymous"></script>
+  </body>
+</html>
