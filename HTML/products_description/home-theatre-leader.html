@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LEADER Home theatre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../Stylesheet/layout.css">
+    <link rel="stylesheet" href="../../Stylesheet/product-description.css">
+  </head>
+  <body>
+    <div class="container main-container mt-1">
+         <!--Nav bar section-->
+         <div class="row">
+          <div class="col-12 ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html"> <span class="logo_text_1 fw-bolder fs-4 d-inline-block">My-</span> <span class="logo_text_2 fw-bolder fs-4 d-inline-block">Sat</span> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../track-satellite.html">Track Satellites</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"  href="https://wa.me/233543328021">WHATSAPP</a></li>
+                        <li><a class="dropdown-item" href="mailto:chienntiwuni@gmail.com">EMAIL</a></li>
+                        <li><a class="dropdown-item"  onclick="makeCall()">CALL</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../../HTML/about.html">About</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!--Top infor section-->
+        <div class="top-info-container d-flex justify-content-between align-items-center mt-3">
+          <div class="top-info-left fs-4 fw-bold ps-2">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  Delivery before payment.
+                </div>
+                <div class="carousel-item">
+                  Delivered at your doorstep when you order
+                </div>
+                <div class="carousel-item">
+                  Just select an item to order NOW!!!
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-info-right d-md-flex">
+              <div class="caller-button">
+                  <button class="btn btn-light" onclick="makeCall()">Call Installer <i class="fa-solid fa-phone-flip"></i></button>
+              </div>
+              <div class="track-satellite">
+                  <button class="btn btn-light"><a href="../track-satellite.html">Track Satellite <i class="fa-solid fa-satellite-dish"></i></a></button>
+              </div>
+          </div>
+        </div>
+        <!--Order section-->
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4 product-name mb-3">Leader Home theatre</h1>
+          <img src="../../Images/home-theatre-leader.jpg" class="img-fluid" alt="Leader home theatre" loading="lazy">
+          <div class="mt-3">
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="orderDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Order NOW
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="orderDropdown">
+                <li><a class="dropdown-item" onclick="makeCall()"><button type="button" class="btn btn-success">CALL</button></a></li>
+                <li><a class="dropdown-item" href="https://wa.me/233543328021"><button type="button" class="btn btn-success">WHATSAPP</button></a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="lead"><h6>General Description</h6></p>
+          <p class="lead">LEADER HOME THEATRE</p>
+        </div>
+      </div>
+    </div>
+    
+    <!--Related product section-->
+    <div class="container d-flex justify-content-center mt-3 related-product-title"><h5>Related Products </h5></div>
+    <div class="container related-product-main-div d-flex justify-content-center mt-3">
+      <div class="related-product-parent-div d-flex justify-content-center">
+        <!--Carousel Section-->
+        <div id="carouselExample" class="carousel slide carousel-image">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <button type="button" class="btn btn-light">
+                <a href="dstv.html">
+                  <div class="card p-0">
+                    <img src="../../Images/dstv.JPG" class="card-img-top" alt="DSTV Complete set" loading="lazy">
+                    <div class="card-body p-0">
+                      <h5 class="card-title">DSTV</h5>
+                      <p class="card-text fw-bold">GHC600</p>
+                    </div>
+                  </div>
+                </a>  
+              </button>     
+            </div>
+            <div class="carousel-item">
+              <button type="button" class="btn btn-light">
+                <a href="gotv.html">
+                  <div class="card p-0">
+                    <img src="../../Images/GOTV.JPG" class="card-img-top" alt="GOTV" loading="lazy">
+                    <div class="card-body p-0">
+                      <h5 class="card-title">GOTV</h5>
+                      <p class="card-text fw-bold">GHC350</p>
+                    </div>
+                  </div>
+                </a>
+              </button>
+            </div>
+            <div class="carousel-item">
+              <button type="button" class="btn btn-light">
+                <a href="strong-decoder-combo.html">
+                  <div class="card p-0">
+                    <img src="../../Images/multi_strong.jpg" class="card-img-top" alt="Strong" loading="lazy">
+                    <div class="card-body p-0">
+                        <h5 class="card-title">Strong</h5>
+                        <p class="card-text fw-bold">GHC300</p>
+                    </div>
+                  </div>
+                </a>
+              </button>
+            </div>
+            <div class="carousel-item">
+              <button type="button" class="btn btn-light">
+                <a href="master-combo.html">
+                  <div class="card p-0">
+                    <img src="../../Images/master-combo.JPG" class="card-img-top" alt="master combo" loading="lazy">
+                    <div class="card-body p-0">
+                        <h5 class="card-title">Master combo</h5>
+                        <p class="card-text fw-bold">GHC300</p>
+                    </div>
+                  </div>
+                </a>
+              </button>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <!-- Footer -->
+  <footer class="container text-white mt-2 p-4 text-center footer">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="../../HTML/about.html" class="footer-anchor">
+            <h5>About Us</h5>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <ul class="list-unstyled">
+            <li>Email: chienntiwuni@gmail.com</li>
+            <li>Phone: (233) 543328021</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <a href="https://web.facebook.com/profile.php?id=61559264792519" class="text-white">Facebook</a> |
+          <a href="#" class="text-white">Twitter</a> |
+          <a href="#" class="text-white">Instagram</a>
+        </div>
+      </div>
+      <hr>
+      <p>&copy; 2024 My-Sat. All Rights Reserved.</p>
+  </footer>
+    <script src="../../Javascript/layout.js"></script>
+    <script src="https://kit.fontawesome.com/5aa2dc1415.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
